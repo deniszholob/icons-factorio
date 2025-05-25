@@ -147,6 +147,7 @@ export enum FactorioIcons {
   Arrows_UpArrow = 'Arrows_UpArrow',
   Arrows_UpLeftArrow = 'Arrows_UpLeftArrow',
   Arrows_UpRightArrow = 'Arrows_UpRightArrow',
+  Barreling_BarrelCrudeOil = 'Barreling_BarrelCrudeOil',
   Barreling_BarrelEmpty = 'Barreling_BarrelEmpty',
   Barreling_BarrelEmptySideMask = 'Barreling_BarrelEmptySideMask',
   Barreling_BarrelEmptyTopMask = 'Barreling_BarrelEmptyTopMask',
@@ -2040,6 +2041,11 @@ export const FACTORIO_ICONS_INFO: Record<FactorioIcons, FactorioIconsInfo> = {
     id: FactorioIcons.Arrows_UpRightArrow,
     display: 'Arrows: Up Right Arrow',
     url: 'https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/arrows/up-right-arrow.png'
+  },
+  [FactorioIcons.Barreling_BarrelCrudeOil]: {
+    id: FactorioIcons.Barreling_BarrelCrudeOil,
+    display: 'Barreling: Barrel Crude Oil',
+    url: 'https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/custom/barreling/barrel-crude-oil.png'
   },
   [FactorioIcons.Barreling_BarrelEmpty]: {
     id: FactorioIcons.Barreling_BarrelEmpty,
