@@ -104,6 +104,8 @@
   "mod-manager_cubes": "factorio-icons/core/icons/mod-manager/cubes.png",
   "mod-manager_download": "factorio-icons/core/icons/mod-manager/download.png",
   "mod-manager_history": "factorio-icons/core/icons/mod-manager/history.png",
+  "shortcut-toolbar_circuit-connection": "factorio-icons/core/icons/shortcut-toolbar/circuit-connection.png",
+  "shortcut-toolbar_logistic-connection": "factorio-icons/core/icons/shortcut-toolbar/logistic-connection.png",
   "tooltips_tooltip-category-activated": "factorio-icons/core/icons/tooltips/tooltip-category-activated.png",
   "tooltips_tooltip-category-consumed": "factorio-icons/core/icons/tooltips/tooltip-category-consumed.png",
   "tooltips_tooltip-category-consumes": "factorio-icons/core/icons/tooltips/tooltip-category-consumes.png",

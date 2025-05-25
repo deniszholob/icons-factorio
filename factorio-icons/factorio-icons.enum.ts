@@ -966,6 +966,7 @@ export enum FactorioIcons {
   ShortcutToolbar_AltModeX56 = 'ShortcutToolbar_AltModeX56',
   ShortcutToolbar_ArtilleryTargetingRemoteX24 = 'ShortcutToolbar_ArtilleryTargetingRemoteX24',
   ShortcutToolbar_ArtilleryTargetingRemoteX56 = 'ShortcutToolbar_ArtilleryTargetingRemoteX56',
+  ShortcutToolbar_CircuitConnection = 'ShortcutToolbar_CircuitConnection',
   ShortcutToolbar_CopyX24 = 'ShortcutToolbar_CopyX24',
   ShortcutToolbar_CopyX56 = 'ShortcutToolbar_CopyX56',
   ShortcutToolbar_CutX24 = 'ShortcutToolbar_CutX24',
@@ -974,6 +975,7 @@ export enum FactorioIcons {
   ShortcutToolbar_DischargeDefenseRemoteX56 = 'ShortcutToolbar_DischargeDefenseRemoteX56',
   ShortcutToolbar_ImportStringX24 = 'ShortcutToolbar_ImportStringX24',
   ShortcutToolbar_ImportStringX56 = 'ShortcutToolbar_ImportStringX56',
+  ShortcutToolbar_LogisticConnection = 'ShortcutToolbar_LogisticConnection',
   ShortcutToolbar_NewBlueprintBookX24 = 'ShortcutToolbar_NewBlueprintBookX24',
   ShortcutToolbar_NewBlueprintBookX56 = 'ShortcutToolbar_NewBlueprintBookX56',
   ShortcutToolbar_NewBlueprintX24 = 'ShortcutToolbar_NewBlueprintX24',
@@ -6134,6 +6136,11 @@ export const FACTORIO_ICONS_INFO: Record<FactorioIcons, FactorioIconsInfo> = {
     display: 'Shortcut Toolbar: Artillery Targeting Remote X56',
     url: 'factorio-icons/base/icons/shortcut-toolbar/artillery-targeting-remote-x56.png'
   },
+  [FactorioIcons.ShortcutToolbar_CircuitConnection]: {
+    id: FactorioIcons.ShortcutToolbar_CircuitConnection,
+    display: 'Shortcut Toolbar: Circuit Connection',
+    url: 'factorio-icons/core/icons/shortcut-toolbar/circuit-connection.png'
+  },
   [FactorioIcons.ShortcutToolbar_CopyX24]: {
     id: FactorioIcons.ShortcutToolbar_CopyX24,
     display: 'Shortcut Toolbar: Copy X24',
@@ -6173,6 +6180,11 @@ export const FACTORIO_ICONS_INFO: Record<FactorioIcons, FactorioIconsInfo> = {
     id: FactorioIcons.ShortcutToolbar_ImportStringX56,
     display: 'Shortcut Toolbar: Import String X56',
     url: 'factorio-icons/base/icons/shortcut-toolbar/import-string-x56.png'
+  },
+  [FactorioIcons.ShortcutToolbar_LogisticConnection]: {
+    id: FactorioIcons.ShortcutToolbar_LogisticConnection,
+    display: 'Shortcut Toolbar: Logistic Connection',
+    url: 'factorio-icons/core/icons/shortcut-toolbar/logistic-connection.png'
   },
   [FactorioIcons.ShortcutToolbar_NewBlueprintBookX24]: {
     id: FactorioIcons.ShortcutToolbar_NewBlueprintBookX24,
