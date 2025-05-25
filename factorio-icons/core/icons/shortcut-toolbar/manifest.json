@@ -1,4 +1,4 @@
 {
-  "shortcut-toolbar_circuit-connection": "factorio-icons/core/icons/shortcut-toolbar/circuit-connection.png",
-  "shortcut-toolbar_logistic-connection": "factorio-icons/core/icons/shortcut-toolbar/logistic-connection.png"
+  "shortcut-toolbar_circuit-connection": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/shortcut-toolbar/circuit-connection.png",
+  "shortcut-toolbar_logistic-connection": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/shortcut-toolbar/logistic-connection.png"
 }

@@ -1,4 +1,4 @@
 {
-  "ammo-category_railgun": "factorio-icons/space-age/icons/ammo-category/railgun.png",
-  "ammo-category_tesla": "factorio-icons/space-age/icons/ammo-category/tesla.png"
+  "ammo-category_railgun": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/ammo-category/railgun.png",
+  "ammo-category_tesla": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/ammo-category/tesla.png"
 }

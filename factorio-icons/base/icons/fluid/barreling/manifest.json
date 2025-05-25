@@ -1,11 +1,11 @@
 {
-  "barreling_barrel-empty": "factorio-icons/base/icons/fluid/barreling/barrel-empty.png",
-  "barreling_barrel-empty-side-mask": "factorio-icons/base/icons/fluid/barreling/barrel-empty-side-mask.png",
-  "barreling_barrel-empty-top-mask": "factorio-icons/base/icons/fluid/barreling/barrel-empty-top-mask.png",
-  "barreling_barrel-fill": "factorio-icons/base/icons/fluid/barreling/barrel-fill.png",
-  "barreling_barrel-fill-side-mask": "factorio-icons/base/icons/fluid/barreling/barrel-fill-side-mask.png",
-  "barreling_barrel-fill-top-mask": "factorio-icons/base/icons/fluid/barreling/barrel-fill-top-mask.png",
-  "barreling_barrel-hoop-top-mask": "factorio-icons/base/icons/fluid/barreling/barrel-hoop-top-mask.png",
-  "barreling_barrel-side-mask": "factorio-icons/base/icons/fluid/barreling/barrel-side-mask.png",
-  "barreling_empty-barrel": "factorio-icons/base/icons/fluid/barreling/empty-barrel.png"
+  "barreling_barrel-empty": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-empty.png",
+  "barreling_barrel-empty-side-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-empty-side-mask.png",
+  "barreling_barrel-empty-top-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-empty-top-mask.png",
+  "barreling_barrel-fill": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-fill.png",
+  "barreling_barrel-fill-side-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-fill-side-mask.png",
+  "barreling_barrel-fill-top-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-fill-top-mask.png",
+  "barreling_barrel-hoop-top-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-hoop-top-mask.png",
+  "barreling_barrel-side-mask": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/barrel-side-mask.png",
+  "barreling_empty-barrel": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/fluid/barreling/empty-barrel.png"
 }

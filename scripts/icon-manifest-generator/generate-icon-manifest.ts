@@ -22,10 +22,9 @@ async function main(): Promise<void> {
     [...folderToFiles.entries()].map(async ([folder, files]) => {
       const manifest: Record<string, string> = {};
       for (const file of files) {
-        manifest[keyMap.get(file.absPath)!] = file.relPathFromRoot.replace(
-          /\\/g,
-          '/',
-        );
+        manifest[keyMap.get(file.absPath)!] =
+          MANIFEST_CONFIG.hostDir + file.relPathFromRoot.replace(/\\/g, '/');
+        console.log(file.relPathFromRoot, manifest[keyMap.get(file.absPath)!]);
       }
 
       const sortedManifest = MANIFEST_CONFIG.sortKeys
@@ -41,10 +40,8 @@ async function main(): Promise<void> {
   // Always write root manifest
   const rootManifest: Record<string, string> = {};
   for (const file of allFiles) {
-    rootManifest[keyMap.get(file.absPath)!] = file.relPathFromRoot.replace(
-      /\\/g,
-      '/',
-    );
+    rootManifest[keyMap.get(file.absPath)!] =
+      MANIFEST_CONFIG.hostDir + file.relPathFromRoot.replace(/\\/g, '/');
   }
 
   const sortedRootManifest = MANIFEST_CONFIG.sortKeys

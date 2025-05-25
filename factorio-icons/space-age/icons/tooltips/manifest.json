@@ -1,8 +1,8 @@
 {
-  "tooltips_tooltip-category-fluoroketone-cold": "factorio-icons/space-age/icons/tooltips/tooltip-category-fluoroketone-cold.png",
-  "tooltips_tooltip-category-fluoroketone-hot": "factorio-icons/space-age/icons/tooltips/tooltip-category-fluoroketone-hot.png",
-  "tooltips_tooltip-category-fusion": "factorio-icons/space-age/icons/tooltips/tooltip-category-fusion.png",
-  "tooltips_tooltip-category-fusion-plasma": "factorio-icons/space-age/icons/tooltips/tooltip-category-fusion-plasma.png",
-  "tooltips_tooltip-category-nutrients": "factorio-icons/space-age/icons/tooltips/tooltip-category-nutrients.png",
-  "tooltips_tooltip-category-thrust": "factorio-icons/space-age/icons/tooltips/tooltip-category-thrust.png"
+  "tooltips_tooltip-category-fluoroketone-cold": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-fluoroketone-cold.png",
+  "tooltips_tooltip-category-fluoroketone-hot": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-fluoroketone-hot.png",
+  "tooltips_tooltip-category-fusion": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-fusion.png",
+  "tooltips_tooltip-category-fusion-plasma": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-fusion-plasma.png",
+  "tooltips_tooltip-category-nutrients": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-nutrients.png",
+  "tooltips_tooltip-category-thrust": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/space-age/icons/tooltips/tooltip-category-thrust.png"
 }

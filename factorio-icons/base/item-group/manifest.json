@@ -1,9 +1,9 @@
 {
-  "item-group_effects": "factorio-icons/base/item-group/effects.png",
-  "item-group_fluids": "factorio-icons/base/item-group/fluids.png",
-  "item-group_intermediate-products": "factorio-icons/base/item-group/intermediate-products.png",
-  "item-group_logistics": "factorio-icons/base/item-group/logistics.png",
-  "item-group_military": "factorio-icons/base/item-group/military.png",
-  "item-group_production": "factorio-icons/base/item-group/production.png",
-  "item-group_signals": "factorio-icons/base/item-group/signals.png"
+  "item-group_effects": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/effects.png",
+  "item-group_fluids": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/fluids.png",
+  "item-group_intermediate-products": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/intermediate-products.png",
+  "item-group_logistics": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/logistics.png",
+  "item-group_military": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/military.png",
+  "item-group_production": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/production.png",
+  "item-group_signals": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/item-group/signals.png"
 }

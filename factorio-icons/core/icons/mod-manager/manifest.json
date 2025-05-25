@@ -1,9 +1,9 @@
 {
-  "mod-manager_ban": "factorio-icons/core/icons/mod-manager/ban.png",
-  "mod-manager_ban-clicked": "factorio-icons/core/icons/mod-manager/ban-clicked.png",
-  "mod-manager_ban-hovered": "factorio-icons/core/icons/mod-manager/ban-hovered.png",
-  "mod-manager_ban-selected": "factorio-icons/core/icons/mod-manager/ban-selected.png",
-  "mod-manager_cubes": "factorio-icons/core/icons/mod-manager/cubes.png",
-  "mod-manager_download": "factorio-icons/core/icons/mod-manager/download.png",
-  "mod-manager_history": "factorio-icons/core/icons/mod-manager/history.png"
+  "mod-manager_ban": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/ban.png",
+  "mod-manager_ban-clicked": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/ban-clicked.png",
+  "mod-manager_ban-hovered": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/ban-hovered.png",
+  "mod-manager_ban-selected": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/ban-selected.png",
+  "mod-manager_cubes": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/cubes.png",
+  "mod-manager_download": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/download.png",
+  "mod-manager_history": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/core/icons/mod-manager/history.png"
 }

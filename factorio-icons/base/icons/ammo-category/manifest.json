@@ -1,14 +1,14 @@
 {
-  "ammo-category_artillery-shell": "factorio-icons/base/icons/ammo-category/artillery-shell.png",
-  "ammo-category_beam": "factorio-icons/base/icons/ammo-category/beam.png",
-  "ammo-category_bullet": "factorio-icons/base/icons/ammo-category/bullet.png",
-  "ammo-category_cannon-shell": "factorio-icons/base/icons/ammo-category/cannon-shell.png",
-  "ammo-category_capsule": "factorio-icons/base/icons/ammo-category/capsule.png",
-  "ammo-category_electric": "factorio-icons/base/icons/ammo-category/electric.png",
-  "ammo-category_flamethrower": "factorio-icons/base/icons/ammo-category/flamethrower.png",
-  "ammo-category_grenade": "factorio-icons/base/icons/ammo-category/grenade.png",
-  "ammo-category_land-mine": "factorio-icons/base/icons/ammo-category/land-mine.png",
-  "ammo-category_laser": "factorio-icons/base/icons/ammo-category/laser.png",
-  "ammo-category_rocket": "factorio-icons/base/icons/ammo-category/rocket.png",
-  "ammo-category_shotgun-shell": "factorio-icons/base/icons/ammo-category/shotgun-shell.png"
+  "ammo-category_artillery-shell": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/artillery-shell.png",
+  "ammo-category_beam": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/beam.png",
+  "ammo-category_bullet": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/bullet.png",
+  "ammo-category_cannon-shell": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/cannon-shell.png",
+  "ammo-category_capsule": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/capsule.png",
+  "ammo-category_electric": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/electric.png",
+  "ammo-category_flamethrower": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/flamethrower.png",
+  "ammo-category_grenade": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/grenade.png",
+  "ammo-category_land-mine": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/land-mine.png",
+  "ammo-category_laser": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/laser.png",
+  "ammo-category_rocket": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/rocket.png",
+  "ammo-category_shotgun-shell": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/base/icons/ammo-category/shotgun-shell.png"
 }

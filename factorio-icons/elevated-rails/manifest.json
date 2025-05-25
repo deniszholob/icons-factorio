@@ -1,9 +1,9 @@
 {
-  "icons_elevated-curved-rail": "factorio-icons/elevated-rails/icons/elevated-curved-rail.png",
-  "icons_elevated-curved-rail-b": "factorio-icons/elevated-rails/icons/elevated-curved-rail-b.png",
-  "icons_elevated-half-diagonal-rail": "factorio-icons/elevated-rails/icons/elevated-half-diagonal-rail.png",
-  "icons_elevated-rail": "factorio-icons/elevated-rails/icons/elevated-rail.png",
-  "icons_rail-ramp": "factorio-icons/elevated-rails/icons/rail-ramp.png",
-  "icons_rail-support": "factorio-icons/elevated-rails/icons/rail-support.png",
-  "technology_elevated-rail": "factorio-icons/elevated-rails/technology/elevated-rail.png"
+  "icons_elevated-curved-rail": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/elevated-curved-rail.png",
+  "icons_elevated-curved-rail-b": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/elevated-curved-rail-b.png",
+  "icons_elevated-half-diagonal-rail": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/elevated-half-diagonal-rail.png",
+  "icons_elevated-rail": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/elevated-rail.png",
+  "icons_rail-ramp": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/rail-ramp.png",
+  "icons_rail-support": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/icons/rail-support.png",
+  "technology_elevated-rail": "https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/elevated-rails/technology/elevated-rail.png"
 }
