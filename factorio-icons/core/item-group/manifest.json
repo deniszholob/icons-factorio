@@ -1,13 +1,13 @@
 {
-  "item-group_asteroid-chunk-editor.png": "factorio-icons/core/item-group/asteroid-chunk-editor.png",
-  "item-group_character.png": "factorio-icons/core/item-group/character.png",
-  "item-group_cliff-editor.png": "factorio-icons/core/item-group/cliff-editor.png",
-  "item-group_decorative-editor.png": "factorio-icons/core/item-group/decorative-editor.png",
-  "item-group_enemies.png": "factorio-icons/core/item-group/enemies.png",
-  "item-group_environment.png": "factorio-icons/core/item-group/environment.png",
-  "item-group_resource-editor.png": "factorio-icons/core/item-group/resource-editor.png",
-  "item-group_scripting-editor.png": "factorio-icons/core/item-group/scripting-editor.png",
-  "item-group_surface-editor.png": "factorio-icons/core/item-group/surface-editor.png",
-  "item-group_tiles-editor.png": "factorio-icons/core/item-group/tiles-editor.png",
-  "item-group_unsorted.png": "factorio-icons/core/item-group/unsorted.png"
+  "item-group_asteroid-chunk-editor": "factorio-icons/core/item-group/asteroid-chunk-editor.png",
+  "item-group_character": "factorio-icons/core/item-group/character.png",
+  "item-group_cliff-editor": "factorio-icons/core/item-group/cliff-editor.png",
+  "item-group_decorative-editor": "factorio-icons/core/item-group/decorative-editor.png",
+  "item-group_enemies": "factorio-icons/core/item-group/enemies.png",
+  "item-group_environment": "factorio-icons/core/item-group/environment.png",
+  "item-group_resource-editor": "factorio-icons/core/item-group/resource-editor.png",
+  "item-group_scripting-editor": "factorio-icons/core/item-group/scripting-editor.png",
+  "item-group_surface-editor": "factorio-icons/core/item-group/surface-editor.png",
+  "item-group_tiles-editor": "factorio-icons/core/item-group/tiles-editor.png",
+  "item-group_unsorted": "factorio-icons/core/item-group/unsorted.png"
 }

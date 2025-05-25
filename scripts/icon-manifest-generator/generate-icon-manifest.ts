@@ -1,6 +1,6 @@
-import * as fs from "fs/promises";
-import * as path from "path";
-import { MANIFEST_CONFIG, ManifestConfig } from "./config";
+import * as fs from 'fs/promises';
+import * as path from 'path';
+import { MANIFEST_CONFIG, ManifestConfig } from './config';
 
 interface FileInfo {
   absPath: string;
@@ -14,6 +14,7 @@ async function main(): Promise<void> {
   const allFiles = await scanPngFiles(rootDir, rootDir);
 
   const keyMap = generateUniqueKeys(allFiles);
+  console.log(keyMap);
   const folderToFiles = groupFilesByFolder(allFiles, rootDir);
 
   // Write per-folder manifests
@@ -23,7 +24,7 @@ async function main(): Promise<void> {
       for (const file of files) {
         manifest[keyMap.get(file.absPath)!] = file.relPathFromRoot.replace(
           /\\/g,
-          "/"
+          '/',
         );
       }
 
@@ -31,10 +32,10 @@ async function main(): Promise<void> {
         ? sortObjectByKey(manifest)
         : manifest;
 
-      const manifestPath = path.join(folder, "manifest.json");
+      const manifestPath = path.join(folder, 'manifest.json');
       await fs.writeFile(manifestPath, JSON.stringify(sortedManifest, null, 2));
       console.log(`✅ Manifest written to: ${manifestPath}`);
-    })
+    }),
   );
 
   // Always write root manifest
@@ -42,7 +43,7 @@ async function main(): Promise<void> {
   for (const file of allFiles) {
     rootManifest[keyMap.get(file.absPath)!] = file.relPathFromRoot.replace(
       /\\/g,
-      "/"
+      '/',
     );
   }
 
@@ -50,17 +51,17 @@ async function main(): Promise<void> {
     ? sortObjectByKey(rootManifest)
     : rootManifest;
 
-  const rootManifestPath = path.join(rootDir, "manifest.json");
+  const rootManifestPath = path.join(rootDir, 'manifest.json');
   await fs.writeFile(
     rootManifestPath,
-    JSON.stringify(sortedRootManifest, null, 2)
+    JSON.stringify(sortedRootManifest, null, 2),
   );
   console.log(`✅ Root manifest written to: ${rootManifestPath}`);
 }
 
 async function scanPngFiles(
   currentDir: string,
-  rootDir: string
+  rootDir: string,
 ): Promise<FileInfo[]> {
   const results: FileInfo[] = [];
   const entries = await fs.readdir(currentDir, { withFileTypes: true });
@@ -70,7 +71,7 @@ async function scanPngFiles(
     if (entry.isDirectory()) {
       const subResults = await scanPngFiles(fullPath, rootDir);
       results.push(...subResults);
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".png")) {
+    } else if (entry.isFile() && entry.name.toLowerCase().endsWith('.png')) {
       const relPathFromRoot = path.relative(rootDir, fullPath);
       const folderRelativeToRoot = path.dirname(relPathFromRoot);
       results.push({
@@ -79,7 +80,7 @@ async function scanPngFiles(
         // relPathFromRoot: path.join(MANIFEST_CONFIG.rootDir, relPathFromRoot),
         relPathFromRoot: path.join(
           path.basename(MANIFEST_CONFIG.rootDir),
-          relPathFromRoot
+          relPathFromRoot,
         ),
         folderRelativeToRoot,
         fileName: entry.name,
@@ -106,7 +107,7 @@ function generateUniqueKeys(allFiles: FileInfo[]): Map<string, string> {
 
   for (const file of sortedFiles) {
     const parts = file.folderRelativeToRoot.split(path.sep).filter(Boolean);
-    const baseName = file.fileName;
+    const baseName = file.fileName.split('.')[0];
 
     if (parts.length === 0) {
       let key = baseName;
@@ -120,7 +121,7 @@ function generateUniqueKeys(allFiles: FileInfo[]): Map<string, string> {
         key = newKey;
         console.warn(
           `⚠️ Duplicate filename detected in root folder.\n` +
-            `Using numeric suffix key: "${key}" for file: ${file.relPathFromRoot}`
+            `Using numeric suffix key: "${key}" for file: ${file.relPathFromRoot}`,
         );
       }
       keyCounts.set(key, 1);
@@ -133,7 +134,7 @@ function generateUniqueKeys(allFiles: FileInfo[]): Map<string, string> {
 
     while (keyCounts.has(key) && prefixIndex > 0) {
       prefixIndex--;
-      const prefix = parts.slice(prefixIndex).join("_");
+      const prefix = parts.slice(prefixIndex).join('_');
       key = `${prefix}_${baseName}`;
     }
 
@@ -147,7 +148,7 @@ function generateUniqueKeys(allFiles: FileInfo[]): Map<string, string> {
       console.warn(
         `⚠️ Duplicate filename detected in manifest for folder "${file.folderRelativeToRoot}".\n` +
           `Original key: "${baseName}" is already used.\n` +
-          `Using prefixed key: "${newKey}" instead.`
+          `Using prefixed key: "${newKey}" instead.`,
       );
       key = newKey;
     }
@@ -161,7 +162,7 @@ function generateUniqueKeys(allFiles: FileInfo[]): Map<string, string> {
 
 function groupFilesByFolder(
   allFiles: FileInfo[],
-  rootDir: string
+  rootDir: string,
 ): Map<string, FileInfo[]> {
   const map = new Map<string, FileInfo[]>();
   for (const file of allFiles) {
@@ -191,5 +192,5 @@ function sortObjectByKey(obj: Record<string, string>): Record<string, string> {
 }
 
 main()
-  .then(() => console.log("✅ Done"))
-  .catch((err) => console.error("❌ Error:", err));
+  .then(() => console.log('✅ Done'))
+  .catch((err) => console.error('❌ Error:', err));

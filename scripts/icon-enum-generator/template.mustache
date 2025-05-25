@@ -1,0 +1,32 @@
+export enum {{enumName}} {
+{{#icons}}
+  {{enumKey}} = '{{enumKey}}',
+{{/icons}}
+}
+
+export const {{enumConstPrefix}}_OPTIONS: {{enumName}}[] = Object.values({{enumName}});
+
+export function is{{enumName}}(value: string): value is {{enumName}} {
+  return {{enumConstPrefix}}_OPTIONS.includes(value as {{enumName}});
+}
+
+export interface {{enumName}}Info {
+  id: {{enumName}};
+  display: string;
+  url: string;
+}
+
+export const {{enumConstPrefix}}_INFO: Record<{{enumName}}, {{enumName}}Info> = {
+{{#icons}}
+  [{{enumName}}.{{enumKey}}]: {
+    id: {{enumName}}.{{enumKey}},
+    display: '{{display}}',
+    url: '{{{url}}}'
+  },
+{{/icons}}
+} as const;
+
+export const {{enumConstPrefix}}_INFO_OPTIONS: {{enumName}}Info[] =
+  {{enumConstPrefix}}_OPTIONS.map(
+    (o: {{enumName}}): {{enumName}}Info => {{enumConstPrefix}}_INFO[o],
+  );

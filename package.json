@@ -1,11 +1,13 @@
 {
   "scripts": {
     "i": "pnpm install",
-    "gen-all": "npm run gen-icons && npm run gen-manifest",
+    "gen-all": "npm run gen-icons && npm run gen-manifest && npm run gen-enum",
     "gen-icons": "tsx scripts/icons-generator/generate-icons.ts",
-    "gen-manifest": "tsx scripts/icon-manifest-generator/generate-icon-manifest.ts"
+    "gen-manifest": "tsx scripts/icon-manifest-generator/generate-icon-manifest.ts",
+    "gen-enum": "tsx scripts/icon-enum-generator/generate-icon-enum.ts"
   },
   "dependencies": {
+    "mustache": "^4.2.0",
     "sharp": "^0.34.2"
   },
   "devDependencies": {

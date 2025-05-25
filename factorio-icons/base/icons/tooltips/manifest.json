@@ -1,7 +1,7 @@
 {
-  "tooltips_tooltip-category-chemical.png": "factorio-icons/base/icons/tooltips/tooltip-category-chemical.png",
-  "tooltips_tooltip-category-food.png": "factorio-icons/base/icons/tooltips/tooltip-category-food.png",
-  "tooltips_tooltip-category-nuclear.png": "factorio-icons/base/icons/tooltips/tooltip-category-nuclear.png",
-  "tooltips_tooltip-category-steam.png": "factorio-icons/base/icons/tooltips/tooltip-category-steam.png",
-  "tooltips_tooltip-category-water.png": "factorio-icons/base/icons/tooltips/tooltip-category-water.png"
+  "tooltips_tooltip-category-chemical": "factorio-icons/base/icons/tooltips/tooltip-category-chemical.png",
+  "tooltips_tooltip-category-food": "factorio-icons/base/icons/tooltips/tooltip-category-food.png",
+  "tooltips_tooltip-category-nuclear": "factorio-icons/base/icons/tooltips/tooltip-category-nuclear.png",
+  "tooltips_tooltip-category-steam": "factorio-icons/base/icons/tooltips/tooltip-category-steam.png",
+  "tooltips_tooltip-category-water": "factorio-icons/base/icons/tooltips/tooltip-category-water.png"
 }

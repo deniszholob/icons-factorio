@@ -2,7 +2,11 @@
 
 Extracted Icons from Factorio
 
-Use the [factorio-icons/manifest.json](./factorio-icons/manifest.json) to programmatically import
+> Use the [factorio-icons/manifest.json](./factorio-icons/manifest.json) to programmatically import icons
+> https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/manifest.json
+
+> Copy the [factorio-icons/factorio-icons.enum.ts](./factorio-icons/factorio-icons.enum.ts) to use predictably in ts project
+> https://raw.githubusercontent.com/deniszholob/icons-factorio/refs/heads/main/factorio-icons/factorio-icons.enum.ts
 
 e.g.
 

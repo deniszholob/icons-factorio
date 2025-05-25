@@ -1,9 +1,9 @@
 {
-  "quality_technology_module.png": "factorio-icons/quality/technology/module.png",
-  "technology_epic-quality.png": "factorio-icons/quality/technology/epic-quality.png",
-  "technology_legendary-quality.png": "factorio-icons/quality/technology/legendary-quality.png",
-  "technology_quality-module-1.png": "factorio-icons/quality/technology/quality-module-1.png",
-  "technology_quality-module-2.png": "factorio-icons/quality/technology/quality-module-2.png",
-  "technology_quality-module-3.png": "factorio-icons/quality/technology/quality-module-3.png",
-  "technology_recycling.png": "factorio-icons/quality/technology/recycling.png"
+  "quality_technology_module": "factorio-icons/quality/technology/module.png",
+  "technology_epic-quality": "factorio-icons/quality/technology/epic-quality.png",
+  "technology_legendary-quality": "factorio-icons/quality/technology/legendary-quality.png",
+  "technology_quality-module-1": "factorio-icons/quality/technology/quality-module-1.png",
+  "technology_quality-module-2": "factorio-icons/quality/technology/quality-module-2.png",
+  "technology_quality-module-3": "factorio-icons/quality/technology/quality-module-3.png",
+  "technology_recycling": "factorio-icons/quality/technology/recycling.png"
 }
