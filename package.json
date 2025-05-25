@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "i": "pnpm install",
+    "gen-all": "npm run gen-icons && npm run gen-manifest",
+    "gen-icons": "tsx scripts/icons-generator/generate-icons.ts",
+    "gen-manifest": "tsx scripts/icon-manifest-generator/generate-icon-manifest.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

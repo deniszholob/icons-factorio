@@ -1,0 +1,138 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "always" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 100],
+  // Case sensitive file ordering in tree
+  "explorer.sortOrderLexicographicOptions": "lower",
+  // Enable thge inline display if inferred types for ts
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  // Enable thge inline display if inferred types for ts
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  // Editor Icon Theme
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "angular_ngrx",
+  "material-icon-theme.folders.associations": {
+    "interceptors": "guard",
+    "wrappers": "hook",
+    "forms": "docs"
+  },
+  "material-icon-theme.folders.customClones": [
+    {
+      "name": "components",
+      "folderNames": ["components"],
+      "base": "components",
+      "color": "blue-700"
+    },
+    {
+      "name": "directives",
+      "folderNames": ["directives"],
+      "base": "components",
+      "color": "purple-400"
+    },
+    {
+      "name": "formly",
+      "folderNames": ["formly"],
+      "base": "docs",
+      "color": "red-500"
+    }
+  ],
+  "material-icon-theme.files.associations": {
+    "*.interceptor.ts": "angular-guard",
+    "*.events.ts": "tcl",
+    "*.data.ts": "database",
+    "*.const.ts": "database",
+    "index.ts": "url",
+    "public-api.ts": "url",
+    "models.ts": "url",
+    "services.ts": "url"
+  },
+  "material-icon-theme.files.customClones": [
+    {
+      "name": "typescript-model",
+      "fileExtensions": ["model.ts"],
+      "base": "typescript",
+      "color": "red-400"
+    },
+    {
+      "name": "typescript-enum",
+      "fileExtensions": ["enum.ts"],
+      "base": "typescript",
+      "color": "teal-400"
+    },
+    {
+      "name": "typescript-util",
+      "fileExtensions": ["util.ts"],
+      "base": "typescript",
+      "color": "light-green-600"
+    },
+    {
+      "name": "typescript-mock",
+      "fileExtensions": ["mock.ts"],
+      "base": "typescript",
+      "color": "brown-400"
+    }
+  ],
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.angular": false,
+    "**/.babelrc": false,
+    "**/.firebase": false,
+    "**/.husky": false,
+    "**/.nx": false,
+    "**/ci": false,
+    "**/coverage/": false,
+    "**/e2e": false,
+    "**/node_modules": false,
+    "**/screenshots/": false,
+    "**/src/environments": false,
+    "**/src/icons": false,
+    "**/src/meta": false,
+    "**/src/test-setup.ts": false,
+    "**/tools/": false,
+    "**/.browserslistrc": false,
+    "**/.editorconfig": false,
+    "**/.eslint*": false,
+    "**/.firebaserc": false,
+    "**/.gitignore": false,
+    "**/.gitkeep": false,
+    "**/.gitlab-ci.yml": false,
+    "**/.npmrc": false,
+    "**/.prettier*": false,
+    "documentation.json": false,
+    "**/firebase.json": false,
+    "**/jest*": false,
+    "**/ngsw-config.json": false,
+    "**/package-lock.json": false,
+    "**/pnpm-lock.yaml": false,
+    "**/postcss.config.js": false,
+    "**/tsconfig**": false,
+    "**/FUNDING.yml": false,
+    "**/LICENSE": false,
+    "**/NX-README.md": false,
+    "**/test-setup*": false,
+    "**/*.d.ts": false,
+    "**/debug.log": false
+  },
+  "cSpell.words": [],
+  "liveServer.settings.port": 5501,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
