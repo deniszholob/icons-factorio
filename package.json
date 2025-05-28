@@ -4,7 +4,9 @@
     "gen-all": "npm run gen-icons && npm run gen-manifest && npm run gen-enum",
     "gen-icons": "tsx scripts/icons-generator/generate-icons.ts",
     "gen-manifest": "tsx scripts/icon-manifest-generator/generate-icon-manifest.ts",
-    "gen-enum": "tsx scripts/icon-enum-generator/generate-icon-enum.ts"
+    "gen-enum": "tsx scripts/icon-enum-generator/generate-icon-enum.ts",
+    "eg:read-icon-manifest": "tsx examples/read-icon-manifest.ts",
+    "eg:download-icon-enum": "tsx examples/download-icon-enum.ts"
   },
   "dependencies": {
     "mustache": "^4.2.0",
